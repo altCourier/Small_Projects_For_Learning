@@ -59,7 +59,7 @@ def main():
 
 # Defining the first question.
 def first():
-    return int(input("What is the hypothenuse of a triangle whose sides are 5 and 12? ", end="\n"))
+    return int(input("What is the hypothenuse of a triangle whose sides are 5 and 12? "))
 
 # Defining the second question.
 def second():
