@@ -127,7 +127,7 @@ elif choiceOne == "right":
 
 
 
-else:1
+else:
     # Text 
     print("Confused by the choices, you stand still, unable to make a decision.")
     print("Time seems to stretch, and suddenly, the forest around you grows silent. ")
