@@ -28,29 +28,28 @@ while True:
         case "q":
             print("Goodbye!")
             break
-        case computer_response:
+        case response if response == computer_response:
             print("It's a draw!")
         case "paper":
             if computer_response == "rock":
                 print("Human wins!")
                 player += 1
-            else computer_response == "scissors":
-                print("Human wins!")
+            elif computer_response == "scissors":
+                print("Computer wins!")
                 player += 1
         case "scissors":
             if computer_response == "rock":
                 print("Computer wins!")
                 computer += 1
-            else computer_response == "paper":
+            elif computer_response == "paper":
                 print("Human wins!")
                 player += 1
         case "rock":
             if computer_response == "paper":
                 print("Computer wins!")
                 computer += 1
-            else computer_response == "scissors":
+            elif computer_response == "scissors":
                 print("Human wins!")
                 player += 1
         case _:
             print("Please enter a valid option. ")
-
