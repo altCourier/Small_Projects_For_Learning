@@ -115,7 +115,7 @@ elif choiceOne == "right":
     print("You cautiously follow the clearer path, but the growling grows louder with each step...")
     print("You push deeper into the clearing, where the shadows coalesce into a towering figure cloaked in darkness")
     print("Its glowing eyes lock onto yours, and a chilling smile spreads across its face")
-    print("\“Welcome, traveler,\” it hisses, “I ve been waiting for you.”")
+    print('\“Welcome, traveler,\” it hisses, “I ve been waiting for you.”')
     print("Before you can turn to flee, the shadows lash out, wrapping around you like chains")
     print("As you re pulled into the suffocating darkness, the sinister laughter echoes in your ears,")
     print("...and you realize too late that you ve become another soul claimed by the evil of the forest.")
